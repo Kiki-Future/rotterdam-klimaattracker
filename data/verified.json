@@ -1,0 +1,838 @@
+[
+  {
+    "id": "rotterdam-heat-01",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Find a cool place near you: the Koele Kaart",
+    "summary": "Rotterdams Weerwoord's Koele Kaart (cool map) shows places to cool down during hot days, such as parks, libraries and museums, plus the nearest drinking water points.",
+    "details": [
+      "Open the map on your phone and search from your own location",
+      "Shows indoor places to cool off and nearby drinking water points",
+      "Made by Rotterdams Weerwoord, the city's climate adaptation programme"
+    ],
+    "when": [
+      "heat-high",
+      "heat-extreme"
+    ],
+    "sources": [
+      {
+        "title": "Rotterdams Weerwoord: Koele Kaart",
+        "url": "https://rotterdamsweerwoord.nl/koelekaart/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-heat-02",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Refill your bottle for free at a public water tap",
+    "summary": "Rotterdam has more than 120 free public drinking water taps across its neighbourhoods. Useful on any day out, essential on hot ones.",
+    "details": [
+      "More than 120 water taps spread over the city's neighbourhoods",
+      "Find the nearest one on the city's interactive map (kaartlaag.rotterdam.nl/watertappunten)"
+    ],
+    "when": [
+      "any",
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Watertappunten",
+        "url": "https://www.rotterdam.nl/watertappunten"
+      },
+      {
+        "title": "Gemeente Rotterdam: Watertappunten op de kaart",
+        "url": "https://kaartlaag.rotterdam.nl/watertappunten"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-heat-03",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Check on older neighbours when the Heat Plan is on",
+    "summary": "When the national heat plan (Nationaal Hitteplan) is active, RIVM asks everyone to look out for vulnerable people around them: older people, babies and people with a chronic illness.",
+    "details": [
+      "Ask vulnerable people how they are doing",
+      "Encourage them to drink more than usual, even if they say they are not thirsty",
+      "Advise doing activities before 12:00 or after 18:00",
+      "Watch for headaches and dizziness; never leave young children in a parked car"
+    ],
+    "when": [
+      "heat-high",
+      "heat-extreme"
+    ],
+    "sources": [
+      {
+        "title": "RIVM: Nationaal Hitteplan",
+        "url": "https://www.rivm.nl/hitte/nationaal-hitteplan"
+      },
+      {
+        "title": "Rijksoverheid: Wat kan ik doen tegen de hitte?",
+        "url": "https://www.rijksoverheid.nl/onderwerpen/droogte-en-hitte/vraag-en-antwoord/wat-kan-ik-doen-tegen-de-hitte"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-heat-04",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Follow KNMI heat warnings (code yellow, orange, red)",
+    "summary": "The national weather service KNMI issues heat warnings when temperatures get dangerous. Check the KNMI app or website before planning a hot day.",
+    "details": [
+      "Code yellow: the Nationaal Hitteplan is active, or one day of 35 °C or more",
+      "Code orange or red: 3 days in a row from 34 °C, 2 days from 36 °C, or 1 day from 38 °C",
+      "The KNMI app shows the warnings and the new 'hittekracht' heat index"
+    ],
+    "when": [
+      "heat-high",
+      "heat-extreme"
+    ],
+    "sources": [
+      {
+        "title": "KNMI: Waarschuwingen hitte",
+        "url": "https://www.knmi.nl/kennis-en-datacentrum/waarschuwingen/hitte"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-heat-05",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Subsidy for outdoor sun screens on your home",
+    "summary": "Owners and tenants can get money back for outdoor sun shading that keeps a home cooler, through the city's climate adaptation subsidy.",
+    "details": [
+      "€ 62,50 per m² of sun screen, up to € 700 per building",
+      "Apply at least 8 weeks before the work starts",
+      "Open to owners, tenants, VvE's and non-profit organisations"
+    ],
+    "when": [
+      "any",
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Subsidie Klimaatadaptatie",
+        "url": "https://www.rotterdam.nl/subsidie-klimaatadaptatie"
+      },
+      {
+        "title": "Gemeente Rotterdam: Subsidie klimaatadaptatie aanvragen",
+        "url": "https://www.rotterdam.nl/subsidie-klimaatadaptatie-aanvragen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-air-quality-01",
+    "city": "Rotterdam",
+    "category": "Air quality",
+    "title": "Check the air quality where you are: Luchtmeetnet",
+    "summary": "Luchtmeetnet shows measured and expected air quality for your location, including Rotterdam's DCMR measuring stations. DCMR points residents here.",
+    "details": [
+      "Air quality on your location for the next 24 hours",
+      "Five levels: goed, matig, onvoldoende, slecht, zeer slecht",
+      "Also on Teletekst page 711"
+    ],
+    "when": [
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "Luchtmeetnet: Actuele luchtkwaliteit",
+        "url": "https://www.luchtmeetnet.nl/"
+      },
+      {
+        "title": "DCMR: Gemeten en verwachte luchtkwaliteit",
+        "url": "https://www.dcmr.nl/gemeten-en-verwachte-luchtkwaliteit"
+      },
+      {
+        "title": "Rijksoverheid: Informatie over luchtverontreiniging en smog",
+        "url": "https://www.rijksoverheid.nl/onderwerpen/luchtkwaliteit/vraag-en-antwoord/informatie-over-luchtverontreiniging"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-air-quality-02",
+    "city": "Rotterdam",
+    "category": "Air quality",
+    "title": "What to do on a smog day",
+    "summary": "RIVM advises people who are sensitive to poor air to cut back on exertion during smog. Sensitive means people with lung or heart conditions, diabetes, children, older people and pregnant women.",
+    "details": [
+      "Limit or avoid heavy physical exertion outdoors",
+      "With summer ozone smog, stay inside when levels peak in the late afternoon and early evening",
+      "People with asthma or COPD: always carry your medication",
+      "Athletes and people doing heavy outdoor work also breathe in more"
+    ],
+    "when": [
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "RIVM: Smog",
+        "url": "https://www.rivm.nl/lucht/luchtkwaliteit-Nederland/smog"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-air-quality-03",
+    "city": "Rotterdam",
+    "category": "Air quality",
+    "title": "Report smell, smoke or dust to DCMR, day and night",
+    "summary": "DCMR is the environmental agency for Rotterdam and the region. Report a bad smell, smoke or other air nuisance so they can trace the source.",
+    "details": [
+      "Call 0888 333 555, day and night",
+      "Or use the online form on the DCMR website",
+      "Covers Rotterdam and 12 other municipalities in the region"
+    ],
+    "when": [
+      "any",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "DCMR: Overlast melden",
+        "url": "https://www.dcmr.nl/overlast-melden"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-air-quality-04",
+    "city": "Rotterdam",
+    "category": "Air quality",
+    "title": "Check the Stookwijzer before lighting a wood stove",
+    "summary": "The national Stookwijzer combines wind and air quality per postcode to tell you whether burning wood today causes nuisance and pollution.",
+    "details": [
+      "Yellow: burning causes nuisance and air pollution",
+      "Orange: better not to burn wood now",
+      "Red: do not burn wood",
+      "Find it at atlasleefomgeving.nl/stookwijzer"
+    ],
+    "when": [
+      "any",
+      "air-moderate",
+      "air-high"
+    ],
+    "sources": [
+      {
+        "title": "IPLO (Rijksoverheid): Houtstook en Stookwijzer",
+        "url": "https://iplo.nl/thema/lucht/houtstook-stookwijzer/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-01",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Insulation subsidy for owner-occupied houses",
+    "summary": "Homeowners who live in their own house (eengezinswoning) can get a city subsidy for insulating roof, walls, floor or windows. Open until the end of 2027 or until the budget runs out.",
+    "details": [
+      "Up to € 2.000 per home, or € 2.200 if you do 2 or more measures at once",
+      "Home built in 1992 or earlier, with a WOZ value under € 477.000 (1 January 2024)",
+      "At least 2 poorly insulated parts: roof, facade, floor or windows",
+      "Apply up to and including 31 December 2027, or until the money runs out"
+    ],
+    "when": [
+      "any",
+      "cold-extreme"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Subsidie isolatie eengezinswoningen aanvragen",
+        "url": "https://www.rotterdam.nl/subsidie-isolatie-eengezinswoningen-aanvragen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-02",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Subsidy for sustainable solar panels",
+    "summary": "Residents, businesses and organisations in Rotterdam can get a subsidy per solar panel when they choose an approved sustainable brand.",
+    "details": [
+      "€ 100, € 75 or € 50 per panel, depending on the panel",
+      "Residents apply within 12 weeks after installation",
+      "First come, first served; open until 31 December 2026"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Subsidie duurzame zonnepanelen aanvragen",
+        "url": "https://www.rotterdam.nl/subsidie-duurzame-zonnepanelen-aanvragen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-03",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Free energy handyman if your energy bill is hard to pay",
+    "summary": "Rotterdammers who struggle to pay their energy bill can get a free 'energieklusser' at home who fits LED bulbs, draught strips and radiator foil.",
+    "details": [
+      "Free: the city pays all costs",
+      "Saves around € 200 a year, according to the city",
+      "Call 14 010 and choose option 4, or visit a Vraagwijzer location",
+      "The city no longer gives out free insulating curtains"
+    ],
+    "when": [
+      "any",
+      "cold-extreme"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Energieklusser aanvragen",
+        "url": "https://www.rotterdam.nl/energieklusser-aanvragen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-04",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Free advice from the Rotterdam energy desk",
+    "summary": "The Energieloket helps homeowners and tenants with questions on insulation, solar panels, heat pumps, subsidies and saving energy.",
+    "details": [
+      "Call 088 525 4110 or email rotterdam@regionaalenergieloket.nl (weekdays 9:00 to 17:30)",
+      "Walk-in at Westersingel 32A: first Tuesday and third Thursday of the month, 17:00 to 20:00",
+      "Free online 'woningscan' to see which measures suit your home"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Energieloket Rotterdam (Regionaal Energieloket)",
+        "url": "https://energieloket010.nl/"
+      },
+      {
+        "title": "Energieloket Rotterdam: Subsidies en leningen",
+        "url": "https://energieloket010.nl/subsidies-en-leningen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-01",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Subsidy for rain barrels, green gardens and green roofs",
+    "summary": "The city pays towards measures that hold rainwater: extra water storage, more green in your garden, on your roof or facade, and disconnecting your downpipe.",
+    "details": [
+      "€ 250 per extra 500 litres of water storage (minimum 500 litres)",
+      "€ 10 per extra m² of green (minimum 20 m²), plus a bonus per plant",
+      "Apply at least 8 weeks before you start; decision within 8 weeks",
+      "Questions: call 14 010"
+    ],
+    "when": [
+      "any",
+      "rain-heavy"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Subsidie Klimaatadaptatie",
+        "url": "https://www.rotterdam.nl/subsidie-klimaatadaptatie"
+      },
+      {
+        "title": "Gemeente Rotterdam: Subsidie klimaatadaptatie aanvragen",
+        "url": "https://www.rotterdam.nl/subsidie-klimaatadaptatie-aanvragen"
+      },
+      {
+        "title": "Gemeente Rotterdam: Groene daken",
+        "url": "https://www.rotterdam.nl/groene-daken"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-02",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Water on the street or in your basement: who to call",
+    "summary": "After a cloudburst, report water on the street or in your basement to the city. Canals, ditches and water levels belong to the water board for your area.",
+    "details": [
+      "Street or basement: call 14 010, or report in the MeldR app (its map shows existing reports)",
+      "North of the Maas: Schieland en de Krimpenerwaard, 010 453 72 00",
+      "West Rotterdam: Delfland, 015 260 81 08",
+      "South of the Maas: Hollandse Delta, 0900 200 50 05",
+      "Keeping your own home and plot dry is your own responsibility: sandbags, a submersible pump, valuables up high"
+    ],
+    "when": [
+      "rain-heavy"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Wateroverlast",
+        "url": "https://www.rotterdam.nl/wateroverlast"
+      },
+      {
+        "title": "Gemeente Rotterdam: Waterloket",
+        "url": "https://www.rotterdam.nl/waterloket"
+      },
+      {
+        "title": "Hoogheemraadschap van Schieland en de Krimpenerwaard: Veelgestelde vragen bij veel regen",
+        "url": "https://www.schielandendekrimpenerwaard.nl/actueel/veel-gestelde-vragen-bij-veel-regen/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-03",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Living outside the dikes: Noordereiland, Kop van Feijenoord, Scheepvaartkwartier",
+    "summary": "About 40,000 Rotterdammers live outside the main flood defences. In storm season these areas can flood at high water, and the city warns residents and puts out sandbags.",
+    "details": [
+      "Storm season runs from 1 October to 15 April",
+      "From 2,40 m above NAP the city informs Noordereiland residents",
+      "From 2,80 m above NAP the city places pallets with a limited number of filled sandbags on Noordereiland",
+      "Put sandbags or barriers at doors, park your car higher up, move valuables upstairs, switch off electricity"
+    ],
+    "when": [
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Buitendijks",
+        "url": "https://www.rotterdam.nl/buitendijks"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-04",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "What the city does at high water, and what you do",
+    "summary": "The Maeslantkering storm barrier closes when the forecast reaches 3,00 m above NAP. About 24 hours before expected high water the city starts its protocol, including warnings and notices to move cars.",
+    "details": [
+      "Make your home watertight with sandbags or flood boards",
+      "Move belongings to a higher floor and your car to higher ground",
+      "If water threatens your home, shut off the main switches and valves for electricity, water and gas"
+    ],
+    "when": [
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Waterveiligheid",
+        "url": "https://www.rotterdam.nl/waterveiligheid"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-05",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Check river and sea water levels: Rijkswaterstaat Waterinfo",
+    "summary": "Rijkswaterstaat's Waterinfo shows current, expected and historical water levels on the main rivers and the coast, on a map with tables and graphs.",
+    "details": [
+      "Current and forecast water heights for the state waters",
+      "Look up a measuring station near you on the map"
+    ],
+    "when": [
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Rijkswaterstaat: Waterinfo waterhoogte",
+        "url": "https://waterinfo.rws.nl/publiek/waterhoogte"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-06",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Prepare your home for a flood",
+    "summary": "Rotterdams Weerwoord lists practical steps for homes in low-lying areas, from sandbags and water barriers to a waterproof box for important papers.",
+    "details": [
+      "Keep sandbags or water barriers for doors and windows",
+      "Store important documents in a waterproof container",
+      "Place electrical appliances higher up and know your evacuation route",
+      "Check whether your insurance covers flooding"
+    ],
+    "when": [
+      "any",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Rotterdams Weerwoord: Bereid je huis voor op overstroming",
+        "url": "https://rotterdamsweerwoord.nl/tip/bereid-je-huis-voor-op-overstroming/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-water-and-flooding-07",
+    "city": "Rotterdam",
+    "category": "Water and flooding",
+    "title": "Check how high the water could get at your address: Overstroom ik?",
+    "summary": "The national flood information site shows how high water could rise in your area if a flood happens, and how to prepare. Run by Rijkswaterstaat, the safety regions, the water boards and two ministries.",
+    "details": [
+      "Enter your location to see the water height in your area during a flood",
+      "Step-by-step advice on how to prepare",
+      "An initiative of Rijkswaterstaat, the veiligheidsregio's, the waterschappen, the ministries of I&W and J&V, and the Deltaprogramma"
+    ],
+    "when": [
+      "any",
+      "flood-risk"
+    ],
+    "sources": [
+      {
+        "title": "Overstroom ik? (Rijkswaterstaat, veiligheidsregio's, waterschappen)",
+        "url": "https://overstroomik.nl/"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-getting-around-01",
+    "city": "Rotterdam",
+    "category": "Getting around",
+    "title": "Free bus, tram and metro for AOW-age Rotterdammers",
+    "summary": "Rotterdam residents who have reached AOW pension age can travel free on RET bus, tram and metro off-peak.",
+    "details": [
+      "The travel product itself is free; a personal OV-chipkaart costs € 7,50 (valid 5 years)",
+      "Valid weekdays from 9:00 and all day at weekends and on public holidays",
+      "Apply online; processed within 3 weeks"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Gratis OV voor AOW-gerechtigden aanvragen",
+        "url": "https://www.rotterdam.nl/gratis-ov-voor-aow-gerechtigden-aanvragen"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-getting-around-02",
+    "city": "Rotterdam",
+    "category": "Getting around",
+    "title": "Free bike parking at Rotterdam Centraal",
+    "summary": "Most bike parking around Rotterdam Centraal is free and open 24/7, so cycling to the train is easy.",
+    "details": [
+      "Stationsplein (underground): 5.190 places, 4.180 of them free",
+      "Stationssingel (north side): 1.700+ places, free, max 14 days",
+      "Conradstraat: 1.000 places, free, max 4 weeks",
+      "Bikes parked outside racks and garages are removed"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Fietsenstalling Centraal Station",
+        "url": "https://www.rotterdam.nl/fietsenstalling-centraal-station"
+      },
+      {
+        "title": "Gemeente Rotterdam: Fietsparkeren",
+        "url": "https://www.rotterdam.nl/fietsparkeren"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-getting-around-03",
+    "city": "Rotterdam",
+    "category": "Getting around",
+    "title": "Take your bike on the metro off-peak",
+    "summary": "RET lets you bring a bike on the metro outside rush hours, so you can combine cycling and metro for longer trips.",
+    "details": [
+      "Weekdays between 9:00 and 16:00 and after 18:30; all day at weekends",
+      "Walk your bike in the station; max 2 bikes per entrance",
+      "Staff can refuse bikes when it is very busy; wheelchairs go first"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "RET: Bikes on the metro",
+        "url": "https://www.ret.nl/en/home/travelling-with-the-ret/travel-rules-terms-and-conditions/bikes.html"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-getting-around-04",
+    "city": "Rotterdam",
+    "category": "Getting around",
+    "title": "Find a public charging point for your electric car",
+    "summary": "Rotterdam has more than 3,400 public charging points. The city's location map shows the ones already placed and the ones being processed.",
+    "details": [
+      "Map of placed and planned charging points: viewer.evmaps.nl/rotterdam (linked by the city)",
+      "Or use the E-Flux app, the ANWB Onderweg app or your charge card provider's app",
+      "New charging points are placed based on data"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Elektrisch rijden",
+        "url": "https://www.rotterdam.nl/elektrisch-rijden"
+      },
+      {
+        "title": "EVmaps: Locatieplan laadpalen Rotterdam",
+        "url": "https://viewer.evmaps.nl/rotterdam"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-waste-and-reuse-01",
+    "city": "Rotterdam",
+    "category": "Waste and reuse",
+    "title": "Drop off bulky waste and reusable items for free at a milieupark",
+    "summary": "Rotterdam has 6 milieuparken where residents can bring waste, bulky items and usable second-hand goods for free.",
+    "details": [
+      "Free for Rotterdam residents",
+      "Your postcode or number plate is checked at the gate",
+      "Closed on major public holidays; closes at 15:00 on 5, 24 and 31 December"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Milieupark",
+        "url": "https://www.rotterdam.nl/milieupark"
+      },
+      {
+        "title": "Gemeente Rotterdam: Afval",
+        "url": "https://www.rotterdam.nl/afval"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-waste-and-reuse-02",
+    "city": "Rotterdam",
+    "category": "Waste and reuse",
+    "title": "Separate food and garden waste (gfe+t)",
+    "summary": "In more and more Rotterdam neighbourhoods you can put vegetable, fruit, food and garden waste in a separate container. You get a notice when your area starts.",
+    "details": [
+      "Collect peels, coffee grounds, eggshells, leftovers and wilted flowers in a small kitchen bin",
+      "Empty it into your gfe+t container every few days",
+      "The city empties gfe+t containers every two weeks"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Groente-, fruit- en etensresten en tuinafval",
+        "url": "https://www.rotterdam.nl/groente-fruit-en-etensresten-en-tuinafval"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-waste-and-reuse-03",
+    "city": "Rotterdam",
+    "category": "Waste and reuse",
+    "title": "Worn-out clothes and textiles go in a textile container",
+    "summary": "Even torn or worn textiles are recycled. Rotterdam has 237 textile containers, or bring textiles to a milieupark.",
+    "details": [
+      "Accepted: worn clothing, shoes, curtains, sheets, cuddly toys, even single socks",
+      "237 textile containers across the city",
+      "Items in good condition go to kringloopwinkels via the milieupark"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Textiel",
+        "url": "https://www.rotterdam.nl/textiel"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-waste-and-reuse-04",
+    "city": "Rotterdam",
+    "category": "Waste and reuse",
+    "title": "Book a free bulky waste pickup",
+    "summary": "The city picks up bulky waste at your door for free. Book online or by phone and put it out on the morning of pickup.",
+    "details": [
+      "Free for Rotterdam residents",
+      "Book online ('Grofvuil laten ophalen') or call 14 010",
+      "Put it out before 8:00 on pickup day, not the evening before (you can be fined)",
+      "Pieces max 1 metre and 30 kilo each; no more than one parking space in total",
+      "Construction and demolition waste is not accepted"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Grofvuil",
+        "url": "https://www.rotterdam.nl/grofvuil"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  },
+  {
+    "id": "rotterdam-waste-and-reuse-05",
+    "city": "Rotterdam",
+    "category": "Waste and reuse",
+    "title": "Get things repaired for free at Repair Café Rotterdam Noord",
+    "summary": "Volunteers help you fix broken appliances, furniture, bikes, objects and clothing, so they don't end up in the bin.",
+    "details": [
+      "Every second Saturday of the month, 10:00 to 12:00; they stop at 12:00, so come on time",
+      "Next dates: 10 October and 14 November 2026",
+      "Het Klooster Oude Noorden, Ruivenstraat 81, 3036 DD Rotterdam",
+      "Repairs are free; a voluntary contribution is welcome"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Repair Café Rotterdam Noord: Agenda",
+        "url": "https://repaircaferotterdamnoord.nl/agenda"
+      },
+      {
+        "title": "Rotterdam Circulair (Gemeente Rotterdam): Repaircafé Rotterdam Noord",
+        "url": "https://rotterdamcirculair.nl/agenda/repaircafe-rotterdam-noord-1"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness"
+    }
+  }
+]

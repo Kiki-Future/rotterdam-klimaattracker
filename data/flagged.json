@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rotterdam-getting-around-01-flagged",
+    "city": "Rotterdam",
+    "category": "Getting around",
+    "title": "Two months of free shared bikes and scooters",
+    "summary": "City campaign giving residents of selected neighbourhoods two months of free shared transport.",
+    "details": [
+      "Was for Oud-Mathenesse, Witte Dorp, Oosterflank, Het Lage Land, Prinsenland, Rotterdam Zuid and Ommoord"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam: Gratis deelvervoer",
+        "url": "https://www.rotterdam.nl/gratis-deelvervoer"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the page says you can no longer sign up for the campaign."
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-01-flagged",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Free Energiebox010 for low-income households",
+    "summary": "City press release about a free box with energy-saving items for 32,000 low-income households.",
+    "details": [
+      "Details could not be confirmed"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Gemeente Rotterdam Persberichten: Gratis Energiebox010",
+        "url": "https://persberichtenrotterdam.nl/persberichten/gratis-energiebox010-voor-32-000-rotterdamse-huishoudens-met-laag-inkomen/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the source page returned an error (403) and could not be opened; no current program page found on rotterdam.nl."
+    }
+  },
+  {
+    "id": "rotterdam-heat-01-flagged",
+    "city": "Rotterdam",
+    "category": "Heat",
+    "title": "Heet hè! heat theatre show for older residents",
+    "summary": "A short theatre show and talk with practical heat advice, made at the request of the city and GGD Rotterdam-Rijnmond.",
+    "details": [
+      "The page describes ten free showings subsidised in 2025"
+    ],
+    "when": [
+      "heat-high"
+    ],
+    "sources": [
+      {
+        "title": "Rotterdams Weerwoord: Heet hè!",
+        "url": "https://rotterdamsweerwoord.nl/heet-he/"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the free-showings offer is stated for 2025 and the page gives no 2026 availability."
+    }
+  },
+  {
+    "id": "rotterdam-energy-at-home-02-flagged",
+    "city": "Rotterdam",
+    "category": "Energy at home",
+    "title": "Energy-saving loan from the Nationaal Warmtefonds",
+    "summary": "National loan for home energy improvements, listed by the Rotterdam energy desk.",
+    "details": [
+      "Energieloket lists € 1.000 to € 29.000, 0% interest for household income under € 60.000"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Nationaal Warmtefonds: Energiebespaarlening",
+        "url": "https://www.warmtefonds.nl/particulieren/energiebespaarlening"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-01",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the lender's own page could not be opened, so amounts and current conditions were not confirmed at the source."
+    }
+  }
+]

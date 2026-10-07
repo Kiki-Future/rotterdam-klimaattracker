@@ -1,0 +1,13 @@
+{
+  "name": "Rotterdam",
+  "country": "The Netherlands",
+  "latitude": 51.9225,
+  "longitude": 4.4792,
+  "timezone": "Europe/Amsterdam",
+  "tagline": "What the heat, the air and the rain are doing in Rotterdam right now, and what you can do about it today.",
+  "river": {
+    "label": "Merwede near Gorinchem, upstream of Rotterdam",
+    "latitude": 51.83,
+    "longitude": 5.0
+  }
+}

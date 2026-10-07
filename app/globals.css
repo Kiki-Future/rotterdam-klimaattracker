@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* All colours live here as tokens. The site is always light: one
+   colour scheme is easier to keep accessible.
+
+   Contrast (WCAG) measured against the page and card backgrounds:
+   body text 16:1, muted text 9-10:1, white on Rotterdam green 5.1:1,
+   small green text 5.9-6.7:1, level labels 5.9-7.2:1. Keep normal text
+   at 4.5:1 or more and borders of buttons/inputs at 3:1 or more. */
+:root {
+  color-scheme: light;
+
+  --background: #f5f6f5; /* very light grey page */
+  --foreground: #111a15;
+  --muted: #3b4540;
+  --card: #ffffff;
+  --border: #d6dad7; /* decorative dividers only */
+  --outline: #111a15; /* card, button and input outlines */
+  --ink: #111a15; /* sticker shadows */
+
+  /* Rotterdam green: #00811F, the City of Rotterdam's brand green.
+     --brand-solid: filled areas with white text on top (5.1:1).
+     --brand: small green text and lines, darker so it stays readable
+     on white and on --brand-soft. */
+  --brand-solid: #00811f;
+  --brand-solid-hover: #006b1a;
+  --brand: #006b1a;
+  --brand-soft: #e4f3e7;
+  --on-brand: #ffffff;
+
+  /* Level colours: blue, yellow, orange, red. Keep these clearly
+     different from each other and from Rotterdam green. The level is
+     always written out too, so colour is never the only signal.
+     -bar is the strong fill, -soft the background, plain is the text. */
+  --level-good: #1a4fb0;
+  --level-good-soft: #e2eafb;
+  --level-good-bar: #2f6fe4;
+  --level-moderate: #6b4900;
+  --level-moderate-soft: #fdf0c8;
+  --level-moderate-bar: #f2b705;
+  --level-high: #933600;
+  --level-high-soft: #fde3d2;
+  --level-high-bar: #f26a1b;
+  --level-extreme: #a8102a;
+  --level-extreme-soft: #fbdbe1;
+  --level-extreme-bar: #d7263d;
+  --level-unknown: #3b4540;
+  --level-unknown-soft: #eceeec;
+  --level-unknown-bar: #8a948e;
+}
+
+/* People who ask their computer for more contrast get black text,
+   black dividers and an even darker green. */
+@media (prefers-contrast: more) {
+  :root {
+    --muted: #111a15;
+    --border: #111a15;
+    --brand: #004d12;
+    --brand-solid: #005c16;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-outline: var(--outline);
+  --color-brand: var(--brand);
+  --color-brand-solid: var(--brand-solid);
+  --color-brand-solid-hover: var(--brand-solid-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-on-brand: var(--on-brand);
+  --color-level-good: var(--level-good);
+  --color-level-good-soft: var(--level-good-soft);
+  --color-level-good-bar: var(--level-good-bar);
+  --color-level-moderate: var(--level-moderate);
+  --color-level-moderate-soft: var(--level-moderate-soft);
+  --color-level-moderate-bar: var(--level-moderate-bar);
+  --color-level-high: var(--level-high);
+  --color-level-high-soft: var(--level-high-soft);
+  --color-level-high-bar: var(--level-high-bar);
+  --color-level-extreme: var(--level-extreme);
+  --color-level-extreme-soft: var(--level-extreme-soft);
+  --color-level-extreme-bar: var(--level-extreme-bar);
+  --color-level-unknown: var(--level-unknown);
+  --color-level-unknown-soft: var(--level-unknown-soft);
+  --color-level-unknown-bar: var(--level-unknown-bar);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-bricolage);
+  /* The playful "sticker" shadow: a solid offset block, no blur. */
+  --shadow-sticker: 4px 4px 0 0 var(--ink);
+  --shadow-sticker-lg: 7px 7px 0 0 var(--ink);
+}
+
+@layer base {
+  /* Base text size. Every Tailwind size scales with this. */
+  html {
+    font-size: 112.5%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    line-height: 1.6;
+  }
+
+  /* A thick green ring around whatever has keyboard focus. Only shows
+     for keyboard users, not on mouse clicks. Elements on the green
+     header override the colour to white. */
+  :focus-visible {
+    outline: 3px solid var(--brand-solid);
+    outline-offset: 3px;
+  }
+}
